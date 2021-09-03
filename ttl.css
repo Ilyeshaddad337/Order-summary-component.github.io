@@ -1,0 +1,114 @@
+.attribution { 
+    font-size: 11px;
+     text-align: center; 
+     position:absolute ;
+     Bottom: 45px;
+     }
+    .attribution a {
+     color: hsl(228, 45%, 44%);
+     } 
+    body{
+    Position: relative ;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: hsl(225, 100%, 94%) ;
+    text-align: center ;
+    width: 375px;
+    height: 709px;
+    font-family: 'Red Hat Display', sans-serif;
+    } 
+ .container {
+      border-radius: 20px;
+ 				margin-right: 10px;
+ 				
+ 				width: 330px ;
+ 				height: 556px;
+ 				background-color: #FFFFFF ;
+ 				position:absolute ;
+ 				z-index: 0;
+ 				text-align: center ;
+ 			
+ }
+
+.person {
+				width :100%;
+				border-radius: 20px 20px 0 0;
+				
+}
+
+.heading {
+				font-family: 'Red Hat Display', sans-serif;
+				font-weight: 900;
+				font-size: 22px;
+				margin: 25px 0 10px ;
+}
+.shit{
+				color: hsl(224, 23%, 55%);
+				line-height: 1.5;
+				margin : 27px; ;
+				font-size: 16px;
+}
+
+
+.plan{
+				display: flex;
+				justify-content: space-around;
+    align-items: center ;
+    margin : 20px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding : 17px;
+}
+
+.item{
+				display: flex;
+				flex-direction: column;
+				
+}
+.item h3 , .item p {
+				margin: 0;
+}
+
+.item h3 {
+				font-size: 15px;
+}
+.item p {
+				font-size:14px;
+}
+.change {
+				font-size:13px;
+				color: hsl(245, 75%, 52%);
+				text-decoration: underline;
+				font-weight: 700;
+      cursor: pointer;
+      
+} 
+.btn {
+				margin: 5px 0px 0px 0px ;
+				width: 275px;
+				height: 49px;
+				border-radius: 10px;
+				border: none;
+				background-color: hsl(245, 75%, 52%);
+				color:hsl(225, 100%, 98%) ;
+				font-size: 15px;
+				font-weight: 900;
+				line-height: 0.6;
+				cursor: pointer;
+				box-shadow: 0 16px 10px hsl(225, 100%, 94%);
+				transition: 0.3ms;
+				transition-property: color, background-color ;
+}
+.cancel {
+      filter : opacity(70%) blur(0.2px);
+				font-weight: 900;
+				color: hsl(223, 37%, 26%);
+				margin: 20px ;
+				font-size: 15px;
+				cursor: pointer;
+}
+.btn :hover {
+				background-color: hsl(225, 100%, 98%) ;
+				color: hsl(245, 75%, 52%);
+}

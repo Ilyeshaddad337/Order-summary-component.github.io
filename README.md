@@ -26,6 +26,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Ilyeshaddad337/Order-summary-component.github.io)
-- Live Site URL: [Add live site URL here](https://ilyeshaddad337.github.io/Order-summary-component.github.io/index#)
+- Solution URL: [Solution link](https://github.com/Ilyeshaddad337/Order-summary-component.github.io)
+- Live Site URL: [live site](https://ilyeshaddad337.github.io/Order-summary-component.github.io/index#)
 

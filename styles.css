@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 
@@ -33,6 +33,7 @@ h2,h4 {
     font-weight: 900;
 }
 body {
+    padding: 2.1rem;
     width: 100%;
     height: 100vh;
     font-family: 'Red Hat Display', sans-serif;
@@ -41,39 +42,44 @@ body {
     background-size: cover;
     display: grid;
     place-items: center;
-} 
+}
 
 
 .card {
-    width: 450px;
-    height: 650px;
+    min-width: 300px;
+    max-width:400px;
+    height: clamp(400px,fit-content,650px);
     display: flex;
     flex-direction: column;
+    justify-content: start;
     border-radius: var(--raduis);
     position: relative;
+    overflow: hidden;
 }
-
+.card-head img {
+    width: 100%;
+    height: 100%;
+}
 .card-head {
     width: 100%;
-    flex-basis: 35%;
-    background-image: url(images/illustration-hero.svg);
-    background-position: center;
-    border-radius: var(--raduis) var(--raduis) 0 0;
+    flex-basis: 40%;
+    overflow: hidden;
+    margin: 0;
+
 }
 
 .card-body {
-    padding: 2.5rem;
+    padding: 2rem;
     text-align: center;
     flex-basis: 75%;
     background-color: #fff;
-    border-radius:  0 0 var(--raduis) var(--raduis);
     display: flex;
     flex-direction: column;
     gap: 1.7rem;
     justify-content: space-around;
 }
 .desc {
-    
+
     display: flex;
     flex-direction: column;
     gap: 1.1rem;
@@ -103,8 +109,8 @@ a {
     display: flex;
     justify-content: space-around;
     gap: 1.1rem;
-}    
-    
+}
+
 .btns {
     display: flex;
     flex-direction: column;
